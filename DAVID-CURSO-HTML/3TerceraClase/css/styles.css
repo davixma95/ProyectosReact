@@ -1,0 +1,104 @@
+html{
+    background-color: rgb(7, 4, 51);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.limit{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color:white;
+}
+.zero{
+    margin-left: 1rem;
+    color:white;
+}
+.mil{
+    color:white;
+    margin-left: 17rem;
+}
+
+.fondoImg {
+    margin-top: 20rem;
+    /* max-width: 100%; */
+}
+
+.principal{
+    position: relative;
+    max-width: 100%;
+    display: inline-block;
+    top:26rem;
+}
+
+.icono {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.fylo{    
+    background-color: #1E2D69;
+    width: 18rem;
+    height: 12rem;
+    display: inline-block;
+    border-top-right-radius: 40%;
+    margin-left: 25rem;
+}
+
+.storage{
+    background-color: #1E2D69;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 8.4rem;
+    position: absolute;
+    display: inline-block;
+    border-bottom: 10rem;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.drivesvg, .foldersvg, .archivosvg{
+    padding: 3%;
+    background-color: rgb(26, 11, 95);
+    width: 1.5rem;
+    border-radius: 25%;
+    margin-top:2.5rem;
+    margin-left: 1rem;
+}
+
+.carga{
+    border: 2px solid #0C122C;
+    width: 85%;
+    height:1rem;
+    background-image: linear-gradient(to right, hsl(0, 100%, 50%), hsl(60, 100%, 50%), hsl(120, 100%, 50%), hsl(180, 100%, 50%), hsl(240, 100%, 50%), hsl(300, 100%, 50%), hsl(360, 100%, 50%));
+    border-radius: 10rem;
+}
+
+.cargaVacia{
+    width: 88%;
+    height:1rem;
+    background-color: #0C122C;
+    margin-left: 1rem;
+    border-radius: 10rem;
+}
+
+.circle {
+    background: white;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 17.55rem;
+  }
+  .cajaNormal{
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 57rem;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: white;
+  }
+  .extra{
+    font-size: 3rem;
+  }

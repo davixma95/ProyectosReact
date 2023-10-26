@@ -1,0 +1,45 @@
+html{
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: rgb(211, 74, 204);
+}
+
+h2 {
+    color: rgb(212, 153, 26)
+}
+
+.primero {
+    background-color: rgb(204, 99, 99);
+    border-radius: 5%;
+}
+
+.segundo {
+    background-color: rgb(188, 204, 99);
+    border-radius: 5%;
+}
+
+.tercero {
+    background-color: rgb(103, 198, 221);
+    border-radius: 5%;
+}
+
+.cuarto {
+    background-color: rgb(109, 93, 42);
+    border-radius: 5%;
+}
+
+.quinto {
+    background-color: rgb(204, 99, 99);
+    border-radius: 5%;
+}
+.sexto {
+    background-color: rgb(219, 124, 171);
+    border-radius: 5%;
+}
+
+.septimo {
+    background-color: rgba(58, 111, 161, 0.863);
+    border-radius: 5%;
+}

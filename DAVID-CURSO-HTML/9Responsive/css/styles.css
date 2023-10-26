@@ -1,0 +1,25 @@
+/* resposinve === media querys */
+body{
+    background-color: orange;
+}
+
+.caja{
+    width: 4rem;
+    height: 4rem;
+    background-color: aqua;
+    /* grid-template-columns:repeat(número-de-columnas, minmax(mínimo, máximo)); */
+}
+
+/* MOVILES */
+@media screen and (min-width:768px){
+    .caja{
+        width: 10rem;
+        height: 10rem;
+        background-color: blue;
+    }
+}
+
+/*  Media query por selector SIEMPRE Y CUANDO SE NECESITE */
+
+
+

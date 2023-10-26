@@ -1,0 +1,53 @@
+html {
+    background-color: antiquewhite;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cajas {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 15%;
+     padding: 10%;
+}
+
+.principal {
+    position: relative;
+    background-color: aqua;
+    width: 40rem;
+    height: 40rem;
+}
+
+.primero {
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    background: rgb(93, 216, 216);
+}
+
+.segundo {
+    top: 0;
+    right: 0;
+    background: rgb(100, 38, 116);
+}
+
+.tercero {
+    bottom: 0;
+    left: 0;
+    background: rgb(219, 178, 116);
+}
+
+.cuarto {
+    bottom: 0;
+    right: 0;
+    background: rgb(201, 91, 168);
+}
+
+.quinta {
+    background: rgb(147, 187, 82);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+}

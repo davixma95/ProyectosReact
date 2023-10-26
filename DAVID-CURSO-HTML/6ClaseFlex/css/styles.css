@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #20222F;
+    width: 1440px;
+    padding: 0 200px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, #20222F 25%, #1f2236 25% );
+}
+
+.principal,.secundaria,.terciaria{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-;
+}
+
+.secundaria{
+    margin-bottom: 20px;
+}
+
+header{
+    display:flex;
+    align-items: center;
+}
+h1, h2, span{
+    color:white;
+}
+.primeraArriba,.segundaArriba,.terceraArriba,.cuartaArriba,.primera,.segunda,.tercera,.cuarta,.quinta,.sexta,.septima,.octava{
+    width:300px;
+    background-color: #252B42;
+    height: 250px;    
+}
+
+.primeraArriba,.segundaArriba{
+    border-top: 5px solid rgb(58, 122, 182);
+    border-radius: 10px;
+}
+
+.terceraArriba, .cuartaArriba{
+    border-top: 5px solid rgb(250, 148, 53);
+    border-radius: 10px;
+}
+
+.imgprimer,.imgsecun,.imgtercer,.imgcuart{
+    margin-left:100px;
+    margin-top: 55px;
+}
+
+.num{
+    margin-left:80px;
+    font-size: 60px;
+}
+.type{
+    margin-left:100px;
+}
+
+.follower{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;/* Para que no se alarguen los svgs de las flechitas */
+}
+
+.today{
+    color:aqua;
+}
+.todayBad{
+    color:red; 
+}
+
+/* Cajas de secundaria */
+.visualizaciones{
+    color: rgb(149, 182, 240);
+    margin-left: 40px;
+    margin-top: 75px;
+}
+
+.imagen{
+    margin-left: 75px;
+}
+
+.numviews{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.imagensvg{
+    margin-top: 75px;
+    margin-left: 75px;
+
+}

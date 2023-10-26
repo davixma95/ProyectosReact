@@ -1,0 +1,27 @@
+.primera{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(50px, red 100px, white 100px);
+}
+
+.segunda{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(50px at 100px 100px, yellow 100px, rgb(62, 163, 209) 100px);
+}
+
+.tercera{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(50px, white 30px, transparent 30px),linear-gradient(to bottom, red 33%,blue 33% 66%, red 66% );
+}
+
+.arcoiris{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: radial-gradient(150px at 150px 200px,grey 10% 20%,red 20% 30% , orange 30px 40%, yellow 40% 50%, green 50% 60%, blue 60% 70%, purple 70% 80%, violet 80% 90%, grey 90%);
+}
